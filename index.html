@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://codepen.io/GreenSock/pen/xxmzBrw/fcaef74061bb7a76e5263dfc076c363e.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [['\\(', '\\)']],
+            displayMath: [['\\[', '\\]']],
+            processEscapes: true
+        },
+        "HTML-CSS": { scale: 90 },
+    });
+</script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Flip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Observer.min.js" integrity="sha512-7xTD1meeGGoAzwZKA0Z8YelV3qAvRltuwACWXpnxtneF7VAMztOTAi3t4laVSaE4Znq4LMPeGUIYWEvKEk5r3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js" integrity="sha512-S6SXKUZ11xkCoD/UuhdXG4B4iiCXng+xW2KCx0lgfQqmdqtjqGgm4WChdYIhO1F/CmH21vnkSUvPEgXNgDwkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="index.js" defer></script>
+</head>
+<body>
+    <!-- <div class="container final">
+        <div class="letter F">A</div>
+        <div class="letter l">R</div>
+        <div class="letter i">J</div>
+        <div class="letter p">U</div>
+        <div class="letter n">N</div>
+
+        <div class="for">Ghumman</div>
+    </div> -->
+
+    <!-- <div class = "scene">
+        <svg class="toggle-scene" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMinYMin" viewBox="0 0 197.451 481.081"><defs><marker id="e" orient="auto" overflow="visible" refx="0" refy="0"><path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path></marker><marker id="d" orient="auto" overflow="visible" refx="0" refy="0"><path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path></marker><marker id="c" orient="auto" overflow="visible" refx="0" refy="0"><path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path></marker><marker id="b" orient="auto" overflow="visible" refx="0" refy="0"><path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path></marker><marker id="a" orient="auto" overflow="visible" refx="0" refy="0"><path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path></marker><clippath id="g" clippathunits="userSpaceOnUse"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path></clippath><clippath id="f" clippathunits="userSpaceOnUse"><path d="M-868.418 945.051c-4.188 73.011 78.255 53.244 150.216 52.941 82.387-.346 98.921-19.444 98.921-47.058 0-27.615-4.788-42.55-73.823-42.55-69.036 0-171.436-30.937-175.314 36.667z"></path></clippath></defs><g class="toggle-scene__cords"><path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.56v150.493" transform="translate(-24.503 256.106)"></path><path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.59s28 8.131 28 19.506-18.667 13.005-28 19.507c-9.333 6.502-28 8.131-28 19.506s28 19.507 28 19.507" transform="translate(-24.503 256.106)"></path><path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.575s-20 16.871-20 28.468c0 11.597 13.333 18.978 20 28.468 6.667 9.489 20 16.87 20 28.467 0 11.597-20 28.468-20 28.468" transform="translate(-24.503 256.106)"></path><path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.569s16 20.623 16 32.782c0 12.16-10.667 21.855-16 32.782-5.333 10.928-16 20.623-16 32.782 0 12.16 16 32.782 16 32.782" transform="translate(-24.503 256.106)"></path><path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.563s-10 24.647-10 37.623c0 12.977 6.667 25.082 10 37.623 3.333 12.541 10 24.647 10 37.623 0 12.977-10 37.623-10 37.623" transform="translate(-24.503 256.106)"></path><g class="line toggle-scene__dummy-cord"><line marker-end="url(#a)" x1="98.7255" x2="98.7255" y1="240.5405" y2="380.5405"></line></g><circle class="toggle-scene__hit-spot" cx="98.7255" cy="380.5405" r="60" fill="transparent"></circle></g><g class="toggle-scene__bulb bulb" transform="translate(844.069 -645.213)"><path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path><path class="bulb__cap-shine" d="M-778.379 802.873h25.512v118.409h-25.512z" clip-path="url(#g)" transform="matrix(.52452 0 0 .90177 -368.282 82.976)"></path><path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v0s-8.439 10.115-28.817 10.115c-21.673 0-29.59-10.115-29.59-10.115z"></path><path class="bulb__cap-outline" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path><g class="bulb__filament" fill="none" stroke-linecap="round" stroke-width="5"><path d="M-752.914 823.875l-8.858-33.06"></path><path d="M-737.772 823.875l8.858-33.06"></path></g><path class="bulb__bulb" stroke-linecap="round" stroke-width="5" d="M-783.192 803.855c5.251 8.815 5.295 21.32 13.272 27.774 12.299 8.045 36.46 8.115 49.127 0 7.976-6.454 8.022-18.96 13.273-27.774 3.992-6.7 14.408-19.811 14.408-19.811 8.276-11.539 12.769-24.594 12.769-38.699 0-35.898-29.102-65-65-65-35.899 0-65 29.102-65 65 0 13.667 4.217 26.348 12.405 38.2 0 0 10.754 13.61 14.746 20.31z"></path><circle class="bulb__flash" cx="-745.343" cy="743.939" r="83.725" fill="none" stroke-dasharray="10,30" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"></circle><path class="bulb__shine" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M-789.19 757.501a45.897 45.897 0 013.915-36.189 45.897 45.897 0 0129.031-21.957"></path></g></svg>
+    </div> -->
+
+
+    <div class="header-ov">
+        <div class="logo2"><h2>A/G</h2></div>
+        <div class="sub-menu">
+            <a href="#about-me">About Me</a>
+            <a href="#skiller">Skills</a>
+            <a href="#tut">Tutorials</a>
+            <a href="#services">Services</a>
+            <a href="mailto:arjun10@yorku.ca?subject=Subject%20Here&body=Body%20Here">Contact</a>
+        </div>
+        <div class="menu-2">
+            <a href="mailto:arjun10@yorku.ca?subject=Subject%20Here&body=Body%20Here">Contact</a>
+        </div>
+    </div>
+
+    <div class="cont1">
+        <div class="back-cont1">
+            <img src="back.jpeg" alt="">
+        </div>
+    </div>
+    
+    <div class="cont2">
+        <div class="info">
+            <div class="cname">
+                <h1>Arjun<span id="red">/</span>Ghumman</h1>
+            </div>
+            <div class="ctitle">
+                <h1 id = "type">Data Science + Researcher</h1>
+                <h1 class = "blink">|</h1>
+            </div>
+            <div class = "bounce">
+                <i class="fa fa-chevron-down fa-3x"></i>
+            </div>
+        </div>
+
+        <div class="about-me">
+            <h1 id = "about-me">About Me</h1>
+            <p>
+                My name is Arjun Ghumman. I am currently pursuing my PhD at York University. I am a self-taught programmer proficient in Python, R, SPS, MATLAB, Web Development (HTML, CSS, JS), and cloud computing. I have a keen interest in data science and data visualization. For years, I have developed statistical models, focusing on blending data inferences and predictive modeling while emphasizing visualizing high-dimensional data.
+            </p>
+            <br>
+            <p>
+                In addition to my technical skills, I enjoy teaching. As a private statistical consultant and researcher, I have had the opportunity to conducted several workshops on statistical modeling and programming and participated in various consulting projects. In my leisure time, I delve into the mathematical foundations of statistical models to enhance my understanding and devise ways to visualize the results effectively.
+            </p>
+            <br>
+            <p>
+                Outside of work, I cherish spending time with my husky puppy and occasionally engage in workouts.
+            </p>  
+        </div>
+        
+        <div class="skills">
+
+            <h1 id = "skiller">Skills</h1>
+            <p>How Often I use each skill - </p>
+            <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #1edd7a;"><span>Python</span></div>
+                    <div class="skillbar-bar" style="background: #1edd7a;"></div>
+                    <div class="skill-bar-percent">100%</div>
+                  </div> <!-- End Skill Bar -->
+                  <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #b4dd1e;"><span>R</span></div>
+                    <div class="skillbar-bar" style="background: #b4dd1e;"></div>
+                    <div class="skill-bar-percent">100%</div>
+                  </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #1e54dd;"><span>SQL</span></div>
+                    <div class="skillbar-bar" style="background: #1e54dd;"></div>
+                    <div class="skill-bar-percent">100%</div>
+                  </div> <!-- End Skill Bar -->
+                  <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #aa1edd;"><span>Markdown</span></div>
+                    <div class="skillbar-bar" style="background: #aa1edd;"></div>
+                    <div class="skill-bar-percent">100%</div>
+                  </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="90%">
+                  <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML</span></div>
+                  <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                  <div class="skill-bar-percent">90%</div>
+                </div> <!-- End Skill Bar -->
+      
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title" style="background: #EBB035;"><span>JavaScript</span></div>
+                  <div class="skillbar-bar" style="background: #EBB035;"></div>
+                  <div class="skill-bar-percent">80%</div>
+                </div> <!-- End Skill Bar -->
+      
+                <div class="skillbar clearfix " data-percent="75%">
+                  <div class="skillbar-title" style="background: #852133;"><span>CSS</span></div>
+                  <div class="skillbar-bar" style="background: #852133;"></div>
+                  <div class="skill-bar-percent">75%</div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #218559;"><span>Tableau</span></div>
+                    <div class="skillbar-bar" style="background: #218559;"></div>
+                    <div class="skill-bar-percent">65%</div>
+                  </div> <!-- End Skill Bar -->
+                  <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #854c21;"><span>Shiny</span></div>
+                    <div class="skillbar-bar" style="background: #854c21;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                  </div> <!-- End Skill Bar -->
+      
+                <div class="skillbar clearfix " data-percent="45%">
+                  <div class="skillbar-title" style="background: #6840D4;"><span>SAS</span></div>
+                  <div class="skillbar-bar" style="background: #6840D4;"></div>
+                  <div class="skill-bar-percent">45%</div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #212985;"><span>Azure</span></div>
+                    <div class="skillbar-bar" style="background: #212985;"></div>
+                    <div class="skill-bar-percent">40%</div>
+                  </div> <!-- End Skill Bar -->
+      
+                <div class="skillbar clearfix " data-percent="30%">
+                  <div class="skillbar-title" style="background: #06A2CB;"><span>MATLAB</span></div>
+                  <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                  <div class="skill-bar-percent">30%</div>
+                </div> <!-- End Skill Bar -->
+      
+                <div class="skillbar clearfix " data-percent="20%">
+                  <div class="skillbar-title" style="background: #AB4DD2;"><span>SPSS</span></div>
+                  <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+                  <div class="skill-bar-percent">20%</div>
+                </div> <!-- End Skill Bar -->
+            </div> <!-- End Skill Bars -->
+        </div>
+
+        <div class="tutorials" id = "tut">
+                <h1>Tutorials</h1>
+                <div class="tabs">
+                    <div class="tab1" data-url = "https://arjun10g.github.io/Data-Management/">
+                        <img class ="img1" src="https://library.maastrichtuniversity.nl/wp-content/uploads/datamanagement-2.jpg" alt="">
+                    </div>
+                    <div class="tab2" data-url="https://arjun10g.github.io/ML-Presentation/">
+                        <img class ="img2" src="https://miro.medium.com/v2/resize:fit:1400/1*3YwVvzBcl28A1C8nAk5jvA.png" alt="">
+                    </div>
+                    <div class="tab3" data-url="https://arjun10g.github.io/Week-7/">
+                        <img class ="img3" src="https://www.onlinespss.com/wp-content/uploads/2021/10/Statistics-Help-for-Social-Science.jpg" alt="">
+                    </div>
+                    <div class="tab4" data-url="https://arjun10g.github.io/GLM-for-Dummies/">
+                        <img class ="img4" src="https://3mmarand.github.io/singlm/images/hex-s.png" alt="">
+                    </div>
+                    <div class="tab5" data-url="https://arjun10g.github.io/WebScraping/">
+                        <img src="https://images.squarespace-cdn.com/content/v1/59d9b2749f8dce3ebe4e676d/1566319595811-MFGFIVQGNNSY2W4TZ4AV/web-scraping.png?format=1500w" alt="" class="img5">
+                    </div>
+                    <div class="tab6" data-url="https://arjun10g.github.io/Regex/">
+                        <img src="https://coderpad.io/wp-content/uploads/2022/04/coderpad-regex-the-complete-guide.jpg" alt="" class="img6">
+                    </div>
+                    <div class="tab7" data-url="https://arjun10g.github.io/EFA/">
+                        <img src="https://assets.datacamp.com/production/course_6462/shields/original/shield_image_course_6462_20190823-1-10cfb5e?1566587641" alt="" class="img7">
+                    </div>
+                    <div class="tab8" data-url="https://arjun10g.github.io/Mixed-E-Models-Course/">
+                        <img src="https://statstest.b-cdn.net/wp-content/uploads/2020/05/Mixed-Effects-Model-1.jpg" alt="" class="img8">
+                    </div>
+                    <div class="tab9" data-url="https://arjun10g.github.io/Guide-to-Shiny-in-R/">
+                        <img src="https://psyteachr.github.io/images/shinyintro.png" alt="" class="img9">
+                    </div>
+                </div>
+        </div>
+
+        <div class="services">
+                <h1 id = "services">Services</h1>
+                <div class="services-inner">
+                    <div class="options">
+                        <div class="option active" style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
+                           <div class="shadow"></div>
+                           <div class="label">
+                              <div class="icon">
+                                 <i class="fas fa-walking"></i>
+                              </div>
+                              <div class="info">
+                                 <div class="main">Statistical Consultant</div>
+                                 <div class="sub">Affordable Statistical Consultation</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);">
+                           <div class="shadow"></div>
+                           <div class="label">
+                              <div class="icon">
+                                 <i class="fas fa-snowflake"></i>
+                              </div>
+                              <div class="info">
+                                 <div class="main">Model Building</div>
+                                 <div class="sub">Developing Inferential/Predictive models</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);">
+                           <div class="shadow"></div>
+                           <div class="label">
+                              <div class="icon">
+                                 <i class="fas fa-tree"></i>
+                              </div>
+                              <div class="info">
+                                 <div class="main">Web Development</div>
+                                 <div class="sub">Creating Web-Designs/Application</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
+                           <div class="shadow"></div>
+                           <div class="label">
+                              <div class="icon">
+                                 <i class="fas fa-tint"></i>
+                              </div>
+                              <div class="info">
+                                 <div class="main">Private Tutoring</div>
+                                 <div class="sub">Tutoring in programming/statistics</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
+                           <div class="shadow"></div>
+                           <div class="label">
+                              <div class="icon">
+                                 <i class="fas fa-sun"></i>
+                              </div>
+                              <div class="info">
+                                 <div class="main">General Life Advice</div>
+                                 <div class="sub">This one's free!</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                </div>
+        </div>
+
+        <div class="phone-services">
+                <div>
+                    <h2>Statistical Consultant</h2>
+                </div>
+                <div>
+                    <h2>Model Building</h2>
+                </div>
+                <div>
+                    <h2>Web Development</h2>
+                </div>
+                <div>
+                    <h2>Private Tutoring</h2>
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
